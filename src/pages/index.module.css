@@ -1,0 +1,8 @@
+.ingresar{text-align: center;}
+.contenido{margin-top: 1rem;}
+.input{display: none;}
+.contenedor{width: 40%;margin-left: 30%;text-align: center;border: solid 0.1rem white;background-color: rgb(42, 42, 42);}
+.extra{display: grid;grid-template-columns: 20%80%;justify-content: center;align-content: center;padding: 1rem;}
+.extra:hover{cursor: pointer;transition: all 0.2s;background-color: rgb(51, 51, 51);}
+.extraOne{color: rgb(83, 228, 228);font-size: 1.2rem;}
+.extraTwo{text-align: left;color: rgb(89, 226, 226);}

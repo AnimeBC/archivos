@@ -1,0 +1,21 @@
+.lista{display: grid;grid-template-columns: repeat(auto-fit,250px);gap:1%;justify-content: center;margin-top: 2%;}
+.imagen{width: 100%;height: 150px;}
+.imagen img{width: 100%;height: 100%;object-fit: cover;}
+/***/
+.extras{display: grid;grid-template-columns: 80% 20%;}
+.extraUno{overflow-x: auto;width: 100%;white-space:nowrap;text-overflow: ellipsis;display: flex;width: 98%;align-items: center;}
+.extraDos{text-align: center;font-size: 2rem;background-color: rgb(241, 61, 61);border-radius: 20%;width: 100%;}
+.extraDos:hover{background-color: red;cursor: pointer;transition: all 0.2s;}
+.extraDos ion-icon{color: rgb(234, 175, 175);}
+/**/
+.enviar{text-align: center;margin-top: 2%;display: grid;grid-template-columns: 80% 20%;}
+.enviar button{border: none;background-color: rgb(56, 54, 51);padding: 1rem;border-radius: 20%;padding-left: 1.5rem;padding-right: 1.5rem;
+color: white;}
+.enviar button:hover{background-color: rgb(119, 108, 89);cursor: pointer;transition: all 0.2s;}
+/**/
+.flechas{display: grid;grid-template-columns: 25% 50% 25%;width: 90%;margin-left: 5%;}
+.flechasA{background-color: rgb(95, 92, 87);color: white;font-size: 1.2rem;}
+.flechasA:hover{cursor: pointer;transition: all 0.2s;background-color: rgb(128, 133, 133);}
+.flechasB{background-color: rgb(72, 74, 76);color: white;display: flex;align-items: center;justify-content: center;}
+.flechasC{background-color: rgb(95, 92, 87);color: white;font-size: 1.2rem;}
+.flechasC:hover{cursor: pointer;transition: all 0.2s;background-color: rgb(128, 133, 133);}
